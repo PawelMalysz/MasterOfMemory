@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:minHeight="50dp">
+
+        <TextView
+            android:id="@+id/Nick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Nick:"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputNickname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Your Nickname"
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.47"
+        android:minHeight="50dp">
+
+        <Button
+            android:id="@+id/menuStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Start Game" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.35">
+
+        <Switch
+            android:id="@+id/menuDifficulty"
+            style="android:style/Widget.CompoundButton.Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:width="250dp"
+            android:autoSizeMinTextSize="25dp"
+            android:switchMinWidth="100dp"
+            android:text="Normal"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hard"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="99dp" >
+
+        <Button
+            android:id="@+id/menuOptions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Options" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="93dp" >
+
+        <Button
+            android:id="@+id/menuExit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Exit" />
+    </TableRow>
+
+</LinearLayout>

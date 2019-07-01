@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="377dp">
+
+        <EditText
+            android:id="@+id/scoreTable"
+            android:layout_width="match_parent"
+            android:layout_height="379dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="78dp">
+
+        <Button
+            android:id="@+id/menuBtn"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="Menu" />
+
+        <Button
+            android:id="@+id/restartBtn"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:text="Restart" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Exit" />
+    </TableRow>
+
+</LinearLayout>
